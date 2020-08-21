@@ -8,7 +8,12 @@
 
 let n = 10;
 
-function sumTillNum(num){
+function sumTillNum(a){
+	sum=0;
+	for (let num = a; num >= 0; num--) {
+		sum=num+sum;
+	}
+	return sum;
 	//your code here
 }
 
