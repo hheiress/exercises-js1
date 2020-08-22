@@ -1,7 +1,8 @@
 function secondMatchesAmy(array) {
-  if (array[2]="Amy") {
+  if (array[2] === "Amy") {
     return "Second index matched!";
   }
-  return "Second index not matched";
+  return "Second index not matched!";
 }
-console.log(secondMatchesAmy("Amy"));
+let names = ["Ben", "David", "Amy"];
+console.log(secondMatchesAmy(names));
