@@ -20,5 +20,5 @@ function abracaFunction(yourFunc) {
          return result.sort();
       }
 
- let result = abracaFunction(changeFunction);
+let result = abracaFunction(changeFunction);
 console.log(result);
